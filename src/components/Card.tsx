@@ -13,7 +13,17 @@ export const Card = ({
     <section className=" min-h-16 flex flex-col gap-7">
       <div className="flex flex-col relative">
         <img
-          className="rounded-lg w-full h-auto"
+          className="rounded-lg w-full h-auto md:hidden"
+          src={image.mobile}
+          alt="pic"
+        />
+        <img
+          className="rounded-lg w-full h-auto hidden md:block lg:hidden"
+          src={image.tablet}
+          alt="pic"
+        />
+        <img
+          className="rounded-lg w-full h-auto hidden lg:block"
           src={image.desktop}
           alt="pic"
         />

@@ -1,6 +1,6 @@
 import { dataInterface } from "../interfaces/product.interface";
 
-export const Cart = ({ data, removeItem }: dataInterface) => {
+export const Cart = ({ data, removeItem, setOpen }: dataInterface) => {
   const totalItems = data.reduce((acc, item) => acc + item.quantity, 0);
   const totalSale = data.reduce(
     (acc, item) => acc + item.quantity * item.price,
@@ -64,7 +64,10 @@ export const Cart = ({ data, removeItem }: dataInterface) => {
               delivery
             </p>
           </div>
-          <button className="text-xs bg-red-custom py-3 rounded-full text-rose-50 font-semibold">
+          <button
+            onClick={() => setOpen(true)}
+            className="text-xs bg-red-custom py-3 rounded-full text-rose-50 font-semibold"
+          >
             Confirm Order
           </button>
         </section>

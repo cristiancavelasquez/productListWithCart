@@ -16,4 +16,5 @@ export interface productInterface {
 export interface dataInterface {
   data: productInterface[];
   removeItem: (name: string) => void;
+  setOpen: (open: boolean) => void;
 }
