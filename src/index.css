@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* public/assets/fonts/fonts.css */
+
+@font-face {
+  font-family: "Red Hat Text";
+  font-weight: 400;
+  src: url("/assets/fonts/static/RedHatText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  font-weight: 600;
+  src: url("/assets/fonts/static/RedHatText-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  font-weight: 700;
+  src: url("/assets/fonts/static/RedHatText-Bold.ttf") format("truetype");
+}
