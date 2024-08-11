@@ -42,7 +42,7 @@ export const Card = ({
               className="border border-rose-100 rounded-full h-4 w-4 flex items-center justify-center"
             >
               <img
-                src="public\assets\images\icon-decrement-quantity.svg"
+                src=".\assets\images\icon-decrement-quantity.svg"
                 alt="add"
               />
             </button>
@@ -52,7 +52,7 @@ export const Card = ({
               className="border border-rose-100 rounded-full h-4 w-4 flex items-center justify-center"
             >
               <img
-                src="public\assets\images\icon-increment-quantity.svg"
+                src=".\assets\images\icon-increment-quantity.svg"
                 alt="add"
               />
             </button>

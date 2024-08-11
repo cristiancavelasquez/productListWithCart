@@ -15,7 +15,7 @@ export const Cart = ({ data, removeItem, setOpen }: dataInterface) => {
       {totalItems === 0 ? (
         <div className=" flex-auto flex flex-col justify-center items-center gap-2">
           <img
-            src="public\assets\images\illustration-empty-cart.svg"
+            src=".\assets\images\illustration-empty-cart.svg"
             alt="empty-card"
           />
           <p className="text-xs text-rose-500 font-semibold">
@@ -43,10 +43,7 @@ export const Cart = ({ data, removeItem, setOpen }: dataInterface) => {
                       onClick={() => removeItem(item.name)}
                       className="rounded-full border-2 p-1 border-rose-400"
                     >
-                      <img
-                        src="public/assets/images/icon-remove-item.svg"
-                        alt=""
-                      />
+                      <img src="./assets/images/icon-remove-item.svg" alt="" />
                     </button>
                   </div>
                   <hr />
@@ -58,7 +55,7 @@ export const Cart = ({ data, removeItem, setOpen }: dataInterface) => {
             <p className="font-bold text-rose-900">{`$${totalSale}`}</p>
           </div>
           <div className="text-[14px] gap-2 text-rose-900 flex bg-rose-100 items-center justify-center px-3 py-3 rounded-md">
-            <img src="public/assets/images/icon-carbon-neutral.svg" alt="" />
+            <img src="./assets/images/icon-carbon-neutral.svg" alt="" />
             <p>
               This is a <span className="font-semibold">carbon-neutral</span>{" "}
               delivery

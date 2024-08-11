@@ -67,7 +67,7 @@ function App() {
         <div className="w-full h-full flex flex-col gap-4">
           <img
             className="max-h-10 self-start"
-            src="public/assets/images/icon-order-confirmed.svg"
+            src="./assets/images/icon-order-confirmed.svg"
             alt="check"
           />
           <div className="flex flex-col">

@@ -1,11 +1,11 @@
 # Responsive Mini Store With Cart
 
-<img src="./public/design/desktop-design-selected.jpg" alt="Recipe" width="500" />
+<img src="./design/desktop-design-selected.jpg" alt="Recipe" width="500" />
 
 ## Description
 
 This is a frontend project that uses Astro to create a simple and responsive reviews page.
-You can click here 👉 https://reviews-with-astro.netlify.app/ to see the page in action.
+You can click here 👉 https://mini-store-project.netlify.app/ to see the page in action.
 
 ## Technologies Used
 
