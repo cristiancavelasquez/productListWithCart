@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a frontend project that uses Astro to create a simple and responsive reviews page.
+This is a frontend project that uses React to create a Desserts Mini-Store with a product Cart.
 You can click here 👉 https://mini-store-project.netlify.app/ to see the page in action.
 
 ## Technologies Used
