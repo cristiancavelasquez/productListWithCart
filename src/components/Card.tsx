@@ -32,7 +32,7 @@ export const Card = ({
             onClick={onIncrement}
             className="flex items-center justify-center absolute bottom-0 self-center translate-y-1/2 bg-rose-50 w-4/6 border border-rose-500 gap-2 rounded-full px-3 py-2 text-sm font-semibold text-rose-900"
           >
-            <img src="public\assets\images\icon-add-to-cart.svg" alt="add" />
+            <img src=".\assets\images\icon-add-to-cart.svg" alt="add" />
             <p className="text-sm">Add to Cart</p>
           </button>
         ) : (
