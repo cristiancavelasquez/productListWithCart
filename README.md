@@ -1,6 +1,6 @@
 # Responsive Mini Store With Cart
 
-<img src="./design/desktop-design-selected.jpg" alt="Recipe" width="500" />
+<img src="./public/design/desktop-design-selected.jpg" alt="Recipe" width="500" />
 
 ## Description
 
